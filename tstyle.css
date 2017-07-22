@@ -1,0 +1,149 @@
+/*#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+#nav li.dropdown {
+    display: inline-block;
+}
+
+#nav.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+#nav.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+#nav.dropdown-content a:hover {background-color: #f1f1f1}
+
+#nav.dropdown:hover .dropdown-content {
+    display: block;
+}*/
+body {
+	background-color: teal;
+}
+
+#t {
+	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/09/3a/2c/093a2ca8c22d2e4670a4573ea862fe25.gif");
+	width: auto;
+    height: auto;
+}
+
+@keyframes head {
+    0%   {color: rgba(2, 93, 140, 0.1);}
+    25%  {color: rgba(2, 93, 140, 0.5);}
+    50%  {color: rgba(2, 93, 140, 0.9);}
+    75%  {color: rgba(2, 93, 140, 1.2);}
+    90%  {color: rgba(2, 93, 140, 1.4);}
+    100% {color: rgba(2, 93, 140, 1.6);}
+}
+
+p {
+	color: DarkBlue;
+	font-size : 14;
+	font-family: Script;
+}
+
+h1{
+	color: rgba(2, 93, 140, 1.2);
+	font-size : 150px;
+	text-align: center;
+	animation-name: head;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    0%   {background-color: midnightblue;}
+    25%  {background-color: darkblue;}
+    50%  {background-color: blue;}
+    100% {background-color: #0C3359;}
+}
+
+#mylife {
+	color: rgba(2, 93, 140, 0.4);
+
+}
+
+#mypic {
+	 width: 1000px;
+    height: 500px;
+    background-color: rgba(2, 93, 140, 0.4);
+    animation-name: example;
+    animation-duration: 4s;
+	}
+	@keyframes pics {
+    0%   {background-color:rgba(23, 58, 93, 0.4); left:700px; top:0px;}
+    100% {background-color:rgba(12, 51, 89, 0.4); left:0px; top:0px;}
+}
+@keyframes dw {
+    0% {object-position: 20}
+    25% {object-position: 50}
+    50% {object-position: 80}
+    75% {object-position: 110}
+    100% {object-position: 140}
+}
+
+#rosee {
+	width: 300px;
+    height: 400px;
+    max-width: 100%;
+    height: auto;
+    }
+#rose  {
+    position: relative;
+    background-color: rgba(2, 93, 140, 0.4);
+    
+    color: #0C3359;
+}
+#door {
+    position: relative;
+    left: 700px;
+    width: 200px;
+    height: 200px;
+    animation-duration: 4s;
+}
+#door.triggered {
+    animation-name: pics;
+    left: 0px;
+}
+
+
+/*
+#door {
+    position: relative;
+    left: 700px;
+    width: 200px;
+    height: 200px;
+    transition: 15s;
+}
+#door.triggered {transform : translate3d(400px,0,0); }
+*/
