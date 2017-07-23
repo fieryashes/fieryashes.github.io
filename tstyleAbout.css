@@ -55,6 +55,10 @@ body {
 	background-color: teal;
 }
 
+h2 {
+	text-align: center;
+}
+
 #mia {
     height: 500px;
     width: 400px;
