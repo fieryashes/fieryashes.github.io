@@ -75,7 +75,9 @@ p {
 
 h1{
 	color: rgba(2, 93, 140, 1.2);
-	font-size : 150px;
+	font-size : 200px;
+	font-family: Verdana;
+	font-weight: bold;
 	text-align: center;
 	animation-name: head;
     animation-duration: 4s;
